@@ -1,0 +1,11 @@
+<div class="col-lg-12">
+  <div class="col-lg-3">
+    <input [(ngModel)]="blogTitle" class="form-control">
+  </div>
+
+  <div class="col-lg-3">
+    <textarea [(ngModel)]="blogBody" class="form-control"></textarea>
+  </div>
+</div>
+
+<button class="btn btn-primary" (click)="create()">Create</button>
